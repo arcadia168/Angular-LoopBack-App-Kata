@@ -8,7 +8,7 @@
             <img ng-src="{{item.imagePath}}" height="200px" width="200px">
             <div class="caption">
               <div>{{item.name}}</div>
-              <star-rating ng-model="item.rating" ng-click="updateRating(item)"></star-rating>
+              <star-rating rating-value="item.rating" ng-click="updateRating(item)"></star-rating>
             </div>
           </div>
         </div>
