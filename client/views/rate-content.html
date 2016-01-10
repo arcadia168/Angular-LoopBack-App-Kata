@@ -1,6 +1,17 @@
-<section>
-  <p>Rate Content</p>
-  <div ng-repeat="show in content track by $index">
-    <p>Name: {{show.name}}</p>
+<section class="container-fluid">
+  <div class="row">
+    <div class="col-sm-12 col-sm-offset-1">
+      <div ng-repeat="item in content track by $index">
+        <div class="clearfix" ng-if="$index % 5 == 0"></div>
+        <div class="col-sm-2">
+          <div class="thumbnail">
+            <img ng-src="{{item.imagePath}}" height="200px" width="200px">
+            <div class="caption">
+              <p>{{item.name}}<br>{{item.rating}}</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
 </section>
