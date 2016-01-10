@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="app">
+  <head>
+    <meta charset="utf-8">
+    <title>***REMOVED*** ***REMOVED*** Sky Unattended Coding Test</title>
+    <link href="css/style.css" rel="stylesheet">
+    <link href="bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="bower_components/bootstrap/dist/css/bootstrap-theme.min.css" rel="stylesheet">
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-3">
+            <img class="site-logo img-responsive" src="images/sky-logo.png" width="150px" height="125px"><img>
+          </div>
+          <div class="col-sm-9">
+            <div class="row">
+              <h1 class="align-center">Content Rater</h1>
+            </div>
+            <div class="row">
+              <nav>
+                <ul>
+                  <li>
+                    <a ui-sref="rate-content" ui-sref-active="active">Rate Our Content</a>
+                  </li>
+                  <li>
+                    <a ui-sref="content-leaderboard" ui-sref-active="active">Content Leaderboard</a>
+                  </li>
+                  <li>
+                    <a ui-sref="upload-content" ui-sref-active="active">Upload Content</a>
+                  </li>
+                </ul>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main ui-view></main>
+
+    <script src="vendor/angular.js"></script>
+    <script src="vendor/angular-resource.js"></script>
+    <script src="vendor/angular-ui-router.js"></script>
+    <script src="js/app.js"></script>
+    <script src="js/services/lb-services.js"></script>
+    <script src="js/controllers/controllers.js"></script>
+    <script src="js/controllers/RateContentController.js"></script>
+    <script src="js/controllers/UploadContentController.js"></script>
+    <script src="js/controllers/ContentLeaderboardController.js"></script>
+    <script src="bower_components/jquery/dist/jquery.min.js"></script>
+    <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+  </body>
+</html>

@@ -1,0 +1,23 @@
+{
+  "name": "client",
+  "authors": [
+    "***REMOVED*** ***REMOVED*** <***REMOVED***@***REMOVED***.com>"
+  ],
+  "description": "sky coding test client angular js app for ***REMOVED*** ***REMOVED***",
+  "main": "index.html",
+  "moduleType": [],
+  "license": "MIT",
+  "homepage": "index.html",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "~3.3.6",
+    "jquery": "~2.2.0"
+  }
+}
