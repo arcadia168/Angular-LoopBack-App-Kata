@@ -1,3 +1,132 @@
-<section>
-  <p>Content Leaderboard</p>
+<section class="container-fluid">
+
+  <!--<div class="row">-->
+  <!--<div class="col-sm-12 col-sm-offset-1">-->
+  <!--<div ng-repeat="item in content track by $index">-->
+  <!--<div class="clearfix" ng-if="content[$index + 1].rating != item.rating"></div>-->
+  <!--<div class="col-sm-3">-->
+  <!--<div class="col-sm-3">-->
+  <!--<img ng-src="{{item.imagePath}}" alt="image for {{item.name}}" class="thumbnail" width="260px" height="200px">-->
+  <!--</div>-->
+  <!--<div class="col-sm-3">-->
+  <!--<p>Rating (points): {{item.rating}}</p>-->
+  <!--<p>{{item.name}}</p>-->
+  <!--</div>-->
+  <!--</div>-->
+  <!--</div>-->
+  <!--</div>-->
+  <!--</div>-->
+
+  <!--<div class="row">-->
+  <!--<h1>5 STAR SHOWS</h1>-->
+  <!--<div ng-if="!containsRatings(5)">No shows or movies with 5 stars</div>-->
+  <!--<div ng-repeat="item in content track by $index" ng-if="item.rating == 5">-->
+  <!--<div class="clearfix" ng-if="$index % 3 == 0"></div>-->
+  <!--<div class="col-sm-4">-->
+  <!--<div class="thumbnail">-->
+  <!--<img ng-src="{{item.imagePath}}" height="200px" width="200px">-->
+  <!--<div class="caption">-->
+  <!--<div>{{item.name}}</div>-->
+  <!--<star-rating rating-value="item.rating" readonly="true" ng-click="updateRating(item)"></star-rating>-->
+  <!--</div>-->
+  <!--</div>-->
+  <!--</div>-->
+  <!--</div>-->
+  <!--</div>-->
+
+  <!--<div class="row">-->
+  <!--<h1>4 STAR SHOWS</h1>-->
+  <!--<div ng-if="!containsRatings(4)">No shows or movies with 4 stars</div>-->
+  <!--<div ng-repeat="item in content track by $index" ng-if="item.rating == 4">-->
+  <!--<div class="clearfix" ng-if="$index % 3 == 0"></div>-->
+  <!--<div class="col-sm-4">-->
+  <!--<div class="thumbnail">-->
+  <!--<img ng-src="{{item.imagePath}}" height="200px" width="200px">-->
+  <!--<div class="caption">-->
+  <!--<div>{{item.name}}</div>-->
+  <!--<star-rating rating-value="item.rating" readonly="true" ng-click="updateRating(item)"></star-rating>-->
+  <!--</div>-->
+  <!--</div>-->
+  <!--</div>-->
+  <!--</div>-->
+  <!--</div>-->
+
+  <!--<div class="row">-->
+  <!--<h1>3 STAR SHOWS</h1>-->
+  <!--<div ng-if="!containsRatings(3)">No shows or movies with 3 stars</div>-->
+  <!--<div ng-repeat="item in content track by $index" ng-if="item.rating == 3">-->
+  <!--<div class="clearfix" ng-if="$index % 3 == 0"></div>-->
+  <!--<div class="col-sm-4">-->
+  <!--<div class="thumbnail">-->
+  <!--<p>INDEX: {{$index}}</p>-->
+  <!--<img ng-src="{{item.imagePath}}" height="200px" width="200px">-->
+  <!--<div class="caption">-->
+  <!--<div>{{item.name}}</div>-->
+  <!--<star-rating rating-value="item.rating" readonly="true" ng-click="updateRating(item)"></star-rating>-->
+  <!--</div>-->
+  <!--</div>-->
+  <!--</div>-->
+  <!--</div>-->
+  <!--</div>-->
+
+  <!--<div class="row">-->
+  <!--<h1>2 STAR SHOWS</h1>-->
+  <!--<div ng-if="!containsRatings(2)">No shows or movies with 2 stars</div>-->
+  <!--<div ng-repeat="item in content track by $index" ng-if="item.rating == 2">-->
+  <!--<div class="clearfix" ng-if="$index % 3 == 0"></div>-->
+  <!--<div class="col-sm-4">-->
+  <!--<div class="thumbnail">-->
+  <!--<img ng-src="{{item.imagePath}}" height="200px" width="200px">-->
+  <!--<div class="caption">-->
+  <!--<div>{{item.name}}</div>-->
+  <!--<star-rating rating-value="item.rating" readonly="true" ng-click="updateRating(item)"></star-rating>-->
+  <!--</div>-->
+  <!--</div>-->
+  <!--</div>-->
+  <!--</div>-->
+  <!--</div>-->
+
+  <!--<div class="row">-->
+  <!--<h1>1 STAR SHOWS</h1>-->
+  <!--<div ng-if="!containsRatings(1)">No shows or movies with 1 stars</div>-->
+  <!--<div ng-repeat="item in content track by $index" ng-if="item.rating == 1">-->
+  <!--<div class="clearfix" ng-if="$index % 3 == 0"></div>-->
+  <!--<div class="col-sm-4">-->
+  <!--<div class="thumbnail">-->
+  <!--<img ng-src="{{item.imagePath}}" height="200px" width="200px">-->
+  <!--<div class="caption">-->
+  <!--<div>{{item.name}}</div>-->
+  <!--<star-rating rating-value="item.rating" ng-click="updateRating(item)"></star-rating>-->
+  <!--</div>-->
+  <!--</div>-->
+  <!--</div>-->
+  <!--</div>-->
+  <!--</div>-->
+
+  <!--<div class="row">-->
+  <!--<h1>SHOWS WITH NO STARS</h1>-->
+  <!--<div ng-if="!containsRatings(0)">No shows or movies with 0 stars</div>-->
+  <!--<div ng-repeat="item in content track by $index" ng-if="item.rating == 0">-->
+  <!--<div class="clearfix" ng-if="$index % 3 == 0"></div>-->
+  <!--<div class="col-sm-4">-->
+  <!--<div class="thumbnail">-->
+  <!--<img ng-src="{{item.imagePath}}" height="200px" width="200px">-->
+  <!--<div class="caption">-->
+  <!--<div>{{item.name}}</div>-->
+  <!--<star-rating rating-value="item.rating" ng-click="updateRating(item)"></star-rating>-->
+  <!--</div>-->
+  <!--</div>-->
+  <!--</div>-->
+  <!--</div>-->
+  <!--</div>-->
+
+  <div class="row" ng-repeat="item in content track by $index">
+    <div class="col-sm-3">
+      <img ng-src="{{item.imagePath}}" alt="image for {{item.name}}" class="thumbnail" width="260px" height="200px">
+    </div>
+    <div class="col-sm-9">
+      <p>Rating (points): {{item.rating}}</p>
+      <p>{{item.name}}</p>
+    </div>
+  </div>
 </section>
