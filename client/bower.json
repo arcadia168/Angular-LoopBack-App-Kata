@@ -1,9 +1,9 @@
 {
   "name": "client",
   "authors": [
-    "***REMOVED*** ***REMOVED*** <***REMOVED***@***REMOVED******REMOVED***.com>"
+    "Erin Eland <erin@erineland.com>"
   ],
-  "description": "sky coding test client angular js app for ***REMOVED*** ***REMOVED***",
+  "description": "sky coding test client angular js app for erin eland",
   "main": "index.html",
   "moduleType": [],
   "license": "MIT",

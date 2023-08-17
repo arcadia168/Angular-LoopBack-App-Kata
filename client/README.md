@@ -1,3 +1,3 @@
 ## Client
 
-Application front-end files for ***REMOVED*** ***REMOVED***'s Sky Unattended Coding Test.
+Application front-end files for Erin Eland's Sky Unattended Coding Test.
